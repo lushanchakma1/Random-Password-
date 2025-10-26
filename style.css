@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(177, 226, 245);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: url(https://digitalsynopsis.com/wp-content/uploads/2017/06/beautiful-color-palettes-combinations-schemes-feature-image.jpg);
+  padding: 40px;              
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 450px;               
+  height: auto;               
+  border: 2px solid #333;     
+}
+
+#password {
+  width: 300px;
+  padding: 8px;
+  font-size: 18px;
+  border: 1px dashed rgb(5, 23, 46);
+  border-radius: 4px;
+  text-align: center;
+}
+
+#copyBtn {
+  background: linear-gradient(to right, #0574db, #013e49);
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-left: 6px;
+}
+
+#generateBtn {
+  background-color: #626e1c;
+  color: rgb(176, 198, 231);
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#generateBtn:hover, #copyBtn:hover {
+  opacity: 0.9;
+}
